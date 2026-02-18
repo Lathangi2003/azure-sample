@@ -16,7 +16,7 @@ stages:
       - job: Build
         displayName: Build
         pool:
-          vmImage: ubuntu-latest
+          name: SelfHostedAgentPool
  
         steps:
  
