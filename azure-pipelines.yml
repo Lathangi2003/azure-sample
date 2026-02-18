@@ -27,7 +27,7 @@ stages:
         - task: AzureCLI@2
           displayName: Login to Azure and ACR
           inputs:
-            azureSubscription: 'acr-ltim-01'
+            azureSubscription: 'az-ltm-01'
             scriptType: bash
             scriptLocation: inlineScript
             inlineScript: |
