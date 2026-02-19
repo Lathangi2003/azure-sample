@@ -30,7 +30,7 @@ spec:
 
         - name: nodejsapp
 
-          image: ltim01.azurecr.io/nodejsapp:latest
+          image: ltim01.azurecr.io/nodejsapp:14
 
           ports:
 
