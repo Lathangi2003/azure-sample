@@ -30,12 +30,8 @@ spec:
 
         - name: nodejsapp
 
-          image: ltim01.azurecr.io/nodejsapp:14
+          image: ltim01.azurecr.io/nodejsapp:latest
 
           ports:
 
             - containerPort: 3000
-
-      imagePullSecrets:
-
-        - name: acr-secret
